@@ -1,5 +1,6 @@
 # sample-plugin-workspace-access
-Sample Maven-based workspace access plugin
+Sample Maven-based workspace access plugin.
+
 This sample plugin implements the plugin extension API: 
 
             ro.sync.exml.plugin.workspace.WorkspaceAccessPluginExtension
