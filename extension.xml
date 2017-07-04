@@ -1,3 +1,6 @@
+<!-- This is used to install the plugin as an add-on:
+https://www.oxygenxml.com/doc/versions/18.1/ug-editor/topics/packing-and-deploying-addons.html#packing-and-deploying-addons
+ -->
 <xt:extension xmlns:xt="http://www.oxygenxml.com/ns/extension"
     id="com.oxygenxml.plugin.WorkspaceAccess">
     <xt:location href="${project.build.finalName}-plugin.jar"/>

@@ -19,7 +19,6 @@
  
  <extension type="WorkspaceAccess" 
   class="com.oxygenxml.sdksamples.workspace.CustomWorkspaceAccessPluginExtension"/>
- <extension type="OptionPage" class="com.oxygenxml.sdksamples.workspace.CustomWorkspaceAccessOptionPagePluginExtension"></extension>
  
   <!--The sample view which will present messages from the sample plugin.-->
   <view id="SampleWorkspaceAccessID" initialSide="WEST" initialRow="0"/>
