@@ -30,10 +30,6 @@
       <filtered>true</filtered>
     </file>
     <file>
-      <source>README.html</source>
-      <outputDirectory>/</outputDirectory>
-    </file>
-    <file>
       <source>extension.xml</source>
       <outputDirectory>/</outputDirectory>
       <filtered>true</filtered>
