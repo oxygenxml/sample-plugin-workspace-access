@@ -7,7 +7,7 @@ This sample plugin implements the plugin extension API:
 
 which allows you to add new toolbar, menu and contextual menu buttons, custom views and to interract with the opened XML documents.
 
-For more details see: http://www.oxygenxml.com/doc/ug-editor/index.html#concepts/workspace-access-plugin.html
+For more details see: http://www.oxygenxml.com/doc/ug-editor/index.html#topics/workspace-access-plugin.html
 
 If you are using the Eclipse workbench you can clone the project locally and use in the Eclipse the "Import->Existing Maven Projects" functionality.
 
