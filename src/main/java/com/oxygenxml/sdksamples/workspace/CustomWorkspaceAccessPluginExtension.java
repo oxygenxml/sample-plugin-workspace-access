@@ -45,7 +45,6 @@ public class CustomWorkspaceAccessPluginExtension implements WorkspaceAccessPlug
   /**
    * @see ro.sync.exml.plugin.workspace.WorkspaceAccessPluginExtension#applicationStarted(ro.sync.exml.workspace.api.standalone.StandalonePluginWorkspace)
    */
-  @Override
   public void applicationStarted(final StandalonePluginWorkspace pluginWorkspaceAccess) {
 	  //You can set or read global options.
 	  //The "ro.sync.exml.options.APIAccessibleOptionTags" contains all accessible keys.
@@ -80,7 +79,6 @@ public class CustomWorkspaceAccessPluginExtension implements WorkspaceAccessPlug
 		  /**
 		   * @see ro.sync.exml.workspace.api.standalone.MenuBarCustomizer#customizeMainMenu(javax.swing.JMenuBar)
 		   */
-		  @Override
 		  public void customizeMainMenu(JMenuBar mainMenuBar) {
 			  JMenu myMenu = new JMenu("My menu");
 			  myMenu.add(selectionSourceAction);
@@ -186,7 +184,6 @@ public class CustomWorkspaceAccessPluginExtension implements WorkspaceAccessPlug
 		  /**
 		   * @see ro.sync.exml.workspace.api.standalone.ViewComponentCustomizer#customizeView(ro.sync.exml.workspace.api.standalone.ViewInfo)
 		   */
-		  @Override
 		  public void customizeView(ViewInfo viewInfo) {
 			  if(
 					  //The view ID defined in the "plugin.xml"
@@ -211,7 +208,6 @@ public class CustomWorkspaceAccessPluginExtension implements WorkspaceAccessPlug
 	private AbstractAction createShowSelectionAction(
 			final StandalonePluginWorkspace pluginWorkspaceAccess) {
 		return new AbstractAction("Show Selection") {
-			  @Override
 			  public void actionPerformed(ActionEvent actionevent) {
 				  //Get the current opened XML document
 				  WSEditor editorAccess = pluginWorkspaceAccess.getCurrentEditorAccess(StandalonePluginWorkspace.MAIN_EDITING_AREA);
@@ -256,7 +252,6 @@ public class CustomWorkspaceAccessPluginExtension implements WorkspaceAccessPlug
   /**
    * @see ro.sync.exml.plugin.workspace.WorkspaceAccessPluginExtension#applicationClosing()
    */
-  @Override
   public boolean applicationClosing() {
 	  //You can reject the application closing here
     return true;
