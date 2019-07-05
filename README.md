@@ -15,7 +15,7 @@ Afterwards you can run "mvn install" (either from the command line or from the I
 
 In the same "target" folder there will be an "addon.xml" file allowing you to install the plugin directly from Oxygen (Help menu->Install new add-ons). Or you can manually unpack the JAR in the "OXYGEN_INSTALL_DIR/plugins" folder.
 
-If you want to debug your Java code and do not want to run "mvn install" and to install the plugin in Oxygen all the time, in the "OXYGEN_INSTALL_DIR\plugins" folder you can create a folder with any name (for example "sample") in which you place a file called "plugin.redirect" containing the full file path reference to your project (for example in my case **C:\Users\radu_coravu\Documents\sample-plugin-workspace-access**). Make sure the order of elements in **runtime**" from "plugin.xml" is as follows:
+If you want to debug your Java code and do not want to run "mvn install" and to install the plugin in Oxygen all the time, in the "OXYGEN_INSTALL_DIR\plugins" folder you can create a folder with any name (for example "sample") in which you place a file called "plugin.redirect" containing the full file path reference to your project (for example in my case **C:\Users\radu_coravu\Documents\sample-plugin-workspace-access**). Make sure the order of elements in **runtime** from "plugin.xml" is as follows:
 
     <runtime>
         <library name="target/classes" />
