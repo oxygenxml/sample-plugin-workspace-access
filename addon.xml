@@ -10,7 +10,7 @@ https://www.oxygenxml.com/doc/versions/18.1/ug-editor/topics/packing-and-deployi
         <xt:version>${project.version}.0</xt:version>
         <xt:oxy_version>17.0+</xt:oxy_version>
         <xt:type>plugin</xt:type>
-        <xt:author>Oxygen XML Editor</xt:author>
+        <xt:author>Syncro Soft</xt:author>
         <xt:name>WorkspaceAccess</xt:name>
         <xt:description><html xmlns="http://www.w3.org/1999/xhtml">
             <head>
