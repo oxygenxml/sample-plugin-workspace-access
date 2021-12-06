@@ -7,7 +7,7 @@
  name="CustomWorkspaceAccess"
  description="Test"
  version="${project.version}"
- vendor="oXygen XML"
+ vendor="Syncro Soft"
  class="com.oxygenxml.sdksamples.workspace.WorkspaceAccessPlugin"
  classLoaderType="preferReferencedResources">
  
