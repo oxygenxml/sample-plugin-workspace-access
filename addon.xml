@@ -1,5 +1,5 @@
 <!-- This is used to install the plugin as an add-on:
-https://www.oxygenxml.com/doc/versions/25.0/ug-editor/topics/packing-and-deploying-addons.html#packing-and-deploying-addons
+https://www.oxygenxml.com/doc/ug-editor/topics/packing-and-deploying-addons.html#packing-and-deploying-addons
  -->
 <xt:extensions xmlns:xt="http://www.oxygenxml.com/ns/extension"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
