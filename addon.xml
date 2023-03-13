@@ -1,5 +1,5 @@
 <!-- This is used to install the plugin as an add-on:
-https://www.oxygenxml.com/doc/versions/18.1/ug-editor/topics/packing-and-deploying-addons.html#packing-and-deploying-addons
+https://www.oxygenxml.com/doc/versions/25.0/ug-editor/topics/packing-and-deploying-addons.html#packing-and-deploying-addons
  -->
 <xt:extensions xmlns:xt="http://www.oxygenxml.com/ns/extension"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -8,7 +8,7 @@ https://www.oxygenxml.com/doc/versions/18.1/ug-editor/topics/packing-and-deployi
         id="com.oxygenxml.plugin.WorkspaceAccess">
         <xt:location href="${project.build.finalName}-plugin.jar"/>
         <xt:version>${project.version}.0</xt:version>
-        <xt:oxy_version>17.0+</xt:oxy_version>
+        <xt:oxy_version>25.0+</xt:oxy_version>
         <xt:type>plugin</xt:type>
         <xt:author>Syncro Soft</xt:author>
         <xt:name>WorkspaceAccess</xt:name>
