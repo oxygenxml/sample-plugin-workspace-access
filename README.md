@@ -1,5 +1,5 @@
 # sample-plugin-workspace-access
-Sample Maven-based workspace access plugin.
+Sample Maven-based workspace access plugin for the Oxygen XML on-premise/desktop distribution.
 
 This sample plugin implements the plugin extension API: 
 
